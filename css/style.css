@@ -1,0 +1,138 @@
+body{
+	background: #d2d6de;
+	margin: 0;
+}
+#map{
+	height: 100%;
+}
+b{
+	font-weight: 700px;
+}
+.panel{
+	max-width: 400px;
+	min-height: 200px;
+	margin: auto auto auto auto;
+	margin-top: 130px;
+	padding: 20px;
+	box-sizing:border-box;
+	text-align: center;
+	background: none;
+}
+.panel-logo{
+	font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.panel-logo>a{
+	text-decoration: none;
+    color: #000;
+}
+.panel-logo>a:hover{
+	text-decoration: none;
+    color: #000;
+    text-underline-position: 
+}
+.panel-item{
+	border-radius: 4px;
+    padding: 0;
+    position: relative;
+    margin: 10px auto 30px auto;
+    width: 290px;
+}
+.panel-cred{
+	margin-left: 60px;
+	font-size: 12px;
+}
+.img-alamat{
+	border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+}
+.img-alamat>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.alamat{
+	width: 50%;
+	height: 30px;
+	border-radius: 7px;
+	border:none;
+	outline: none;
+	padding: 18px;
+	box-sizing: border-box;
+	font-size: 12px;
+	float: left;
+	margin-top: 32px;
+	margin-left: -20px;
+}
+.address-item{
+	width: 420px;
+	min-height: 200px;
+	margin: auto auto auto auto;
+	padding: 20px;
+	box-sizing:border-box;
+	text-align: center;
+	background: none;
+}
+.input-group-btn {
+    position: relative; 
+    font-size: 0;
+    white-space: nowrap;
+}
+.btn {
+    background-color: #fff;
+    border: 0;
+    padding: 0 10px;
+    height: 32px;
+}
+.form-input{
+	height: 30px;
+	width: 180px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 12px;
+	border:none;
+}
+.address-item>select{
+	width: 365px;
+	height: 40px;
+	margin-bottom: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 12px;
+	float: left;
+
+}
+.address-item>textarea{
+	width: 365px;
+	height: 40px;
+	margin-bottom: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 12px;
+	float: left;
+
+}
+.ipaddress{
+	width: 365px;
+	height: 40px;
+	margin-bottom: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 12px;
+	float: left;
+}
+
+.gde{
+	font-size: 400px;
+	text-align: center;
+}
