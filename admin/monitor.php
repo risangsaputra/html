@@ -44,7 +44,9 @@ else{ ?><!-- /.row -->
                   <td><?php echo $data['jitter']; ?></td>
                   <td><?php echo $data['delay']; ?></td>
                   <td><?php echo $data['tanggal']; ?></td>
-                  <td><a href="?act=delete_traffic&id_traffic=<?php echo $data['id_traffic'];?>" title="Delete" onclick="return confirm('Apakah anda yakin akan menghapus pertanyaan ini ?')"><i class="fa fa-fw fa-trash-o"></i></a></td>
+                  <td><?php if ($level==1) { ?><a href="?act=delete_traffic&id_traffic=<?php echo $data['id_traffic'];?>" title="Delete" onclick="return confirm('Apakah anda yakin akan menghapus pertanyaan ini ?')"><i class="fa fa-fw fa-trash-o"></i></a> <?php } else ?>
+                  <a href="?act=graps&ip=<?php echo $data['ip'];?>" title="Grafik"><i class="fa fa-bar-chart"></i></a>
+                  </td>
                 </tr>
                 <?php } ?>
                 </tbody>

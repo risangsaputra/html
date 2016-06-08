@@ -5,7 +5,7 @@
  
 $dbhost = 'localhost'; 
 $dbuser = 'root';     
-$dbpass = '';         
+$dbpass = 'root';         
 $dbname = 'monitoring2';
 
 $konek = new mysqli($dbhost,$dbuser,$dbpass,$dbname);

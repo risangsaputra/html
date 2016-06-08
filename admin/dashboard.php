@@ -46,7 +46,7 @@ else{ ?>
                   <td><?php echo $data['lng']; ?></td>
                   <td><?php echo $data['ip']; ?></td>
                   <td><?php echo $data['keterangan']; ?></td>
-                  <td align=center><a href="?act=delete_router&id_router=<?php echo $data['id_router'];?>" title="Delete" onclick="return confirm('Apakah anda yakin akan menghapus pertanyaan ini ?')"><i class="fa fa-fw fa-trash-o"></i></a><a href="edit_router.php?id_router=<?php echo $data['id_router'];?>" title="edit"><i class="fa fa-fw fa-pencil"></i></a></td>
+                  <?php if ($level==1) { ?> <td align=center><a href="?act=delete_router&id_router=<?php echo $data['id_router'];?>" title="Delete" onclick="return confirm('Apakah anda yakin akan menghapus pertanyaan ini ?')"><i class="fa fa-fw fa-trash-o"></i></a><a href="edit_router.php?id_router=<?php echo $data['id_router'];?>" title="edit"><i class="fa fa-fw fa-pencil"></i></a></td> <?php } else ?>
                 </tr>
                 <?php } ?>
                 </tbody>

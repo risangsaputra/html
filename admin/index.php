@@ -46,6 +46,11 @@
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
   <script src="dist/js/sweetalert.min.js"></script> 
   <link rel="stylesheet" type="text/css" href="dist/css/sweetalert.css">
+ <!-- Morris charts -->
+  <link rel="stylesheet" href="plugins/morris/morris.css">
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -182,6 +187,7 @@
           </ul>
         </li>
       </ul>
+
     </section>
     <!-- /.sidebar -->
   </aside>
@@ -296,6 +302,11 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <!-- page script -->
+<!-- Morris.js charts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="plugins/morris/morris.min.js"></script>
+<!-- FastClick -->
+<script src="plugins/fastclick/fastclick.js"></script>
 <script>
   $(function () {
     $("#example1").DataTable();
